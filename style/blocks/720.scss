@@ -1,0 +1,298 @@
+@media (max-width: 719px) {
+    .header {
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+    .header_nav {
+        width: 320px;
+        height: 407px;
+        border-radius: 0 0 16px 16px;
+    }
+    .header_nav_close {
+        margin-left: 15px;
+        margin-bottom: 32px;
+    } 
+    .header_item {
+        margin-left: 15px;
+        margin-bottom: 32px;
+    }
+    .header_item_link {
+        font-size: $main_size_16;
+        line-height: $main_height_20;
+    }
+    .header_logo_link {
+        height: 35px;
+    }
+    .header_logo {
+        width: 110px;
+    }
+    .header_form {
+        width: 539px;
+        height: 69px;
+        right: 10px;
+    }
+    .header_form_text {
+        width: 222px;
+        margin-left: 15px;
+        margin-right: 0;
+        font-size: $main_size_16;
+        line-height: $main_height_20;
+    }
+
+    .offer_container {
+        margin-top: 30px;
+        min-height: 308px;
+    }
+    .offer_card {
+        max-width: 315px;
+        height: 308px;
+    }
+    .offer_card_pic {
+        height: 308px;
+    }
+    .offer_card_cap {
+        width: 247px;
+        font-size: $main_size_20;
+        line-height: $main_height_24px;
+        top: 60px;
+        left: 43px;
+        text-align: center;
+    }
+    .offer_card_text {
+        width: 247px;
+        font-size: $main_size_12;
+        line-height: 14px;
+        top: 115px;
+        left: 43px;
+        text-align: center;
+    }
+    .offer_card_button {
+        width: 162px;
+        height: 41px;
+        border-radius: 8px;
+        font-size: $main_size_12;
+        line-height: 14px;
+        top: 208px;
+        left: 85px;
+    }
+    .offer_buttons {
+        top: 271px;
+        left: 117px;
+    }
+    .offer_button {
+        width: 10px;
+        height: 10px;
+    }
+
+    .about {
+        padding-top: 60px;
+    }
+    .about_cap {
+        font-size: $main_size_24;
+        line-height: $main_height_30;
+    }
+    .about_text {
+        font-size: $main_size_14;
+        line-height: $main_height_28;
+        margin-bottom: 14px;
+    }
+    .about_col_1 {
+        margin-right: 0;
+        margin-bottom: 85px;
+    }
+    .about_col_1_pic {
+        height: 200px;
+        margin-bottom: 8px;
+    }
+    .about_col_1_int {
+        position: relative;
+        background-color: $main_color_white;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 290px;
+    }
+    .about_col_1_text {
+        font-weight: $main_weight_400;
+        font-size: $main_size_14;
+        line-height: $main_height_28;
+        color: $main_color_black;
+        width: 290px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+    .about_col_1_link {
+        width: 162px;
+        height: 39px;
+        border-radius: 8px;
+        color: $main_color_orange_thi;
+        font-size: $main_size_12;
+        line-height: 29px;
+    }
+    .about_col_2_con,
+    .about_col_2_hig {
+        width: 290px;
+        height: 216px;
+        border-radius: 0;
+        border: none;
+    }
+    .about_col_2_con::before,
+    .about_col_2_hig::before {
+        width: 64px;
+        height: 49px;
+        top: -61px;
+        left: 0;
+        background: url(../../pictures/about_frame_1_300.svg) no-repeat center;
+    }
+    .about_col_2_hig::before {
+        background: url(../../pictures/about_frame_2_300.svg) no-repeat center;
+    }
+    .about_col_2_hig {
+        margin-top: 93px;
+    }
+    .about_col_2_cap {
+        margin-left: 0;
+        font-weight: $main_weight_500;
+        font-size: $main_size_18;
+        line-height: $main_height_22;
+        margin-bottom: 4px;
+        margin-top: 0;
+        width: 100%;
+    }
+    .about_col_2_text {
+        margin-left: 0;
+        font-size: $main_size_14;
+        line-height: $main_height_28;
+        width: 290px;
+    }
+
+    .work {
+        padding-top: 61px;
+    }
+    .work_cap {
+        font-size: $main_size_24;
+        line-height: $main_height_30;
+        margin-bottom: 20px;
+    }
+    .work_item {
+        margin-bottom: 16px;
+    }
+    .work_button {
+        font-size: $main_size_14;
+        line-height: 17px;
+    }
+    .work_cards_list {
+        height: 1030px;
+    }
+    .work_card {
+        min-height: 792px;
+    }
+    .work_card_col_1 {
+        width: 290px;
+    }
+    .work_card_cap {
+        font-size: $main_size_18;
+        font-weight: $main_weight_500;
+        line-height: $main_height_32;
+    }
+    .work_card_text {
+        width: 100%;
+        font-size: $main_size_14;
+        line-height: $main_height_28;
+        min-height: 728px;
+    }
+    .work_card_pic {
+        margin-bottom: 16px;
+        height: 160px;
+    }
+    .works_link_spec {
+        bottom: -53px;
+    }
+    .works_button_more {
+        width: 162px;
+        height: 39px;
+        margin-right: 10px;
+        line-height: 39px;
+    }
+    .works_button_con {
+        width: 118px;
+        height: 39px;
+        line-height: 39px;
+    }
+
+    .question {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .question_cap {
+        font-size: $main_size_24;
+        line-height: $main_height_30;
+        margin-bottom: 16px;
+    }
+    .question_summary {
+        font-weight: $main_weight_500;
+        font-size: $main_size_14;
+        line-height: $main_height_24;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .question_summary span {
+        width: 239px;
+    }
+    .question_summary svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    .footer_form_cap {
+        font-size: $main_size_24;
+        line-height: $main_height_30;
+        margin-bottom: 20px;
+        align-self: flex-start;
+        margin-left: 5px;
+    }
+    .footer_form_name,
+    .footer_form_email,
+    .footer_form_text {
+        width: 290px;
+        margin-bottom: 25px;
+        font-size: $main_size_14;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer_form_button {
+        margin-right: 0;
+        margin-bottom: 12px;
+        width: 189px;
+        height: 39px;
+        font-size: $main_size_12;
+        line-height: 15px;
+    }
+    .footer_chec_leb {
+        margin-bottom: 16px;
+    }
+    .footer_chec_leb::before {
+        top: 7px;
+    }
+    .footer_form_hr {
+        display: block;
+        width: 290px;
+        height: 1px;
+        background-color: $main_color_gray_fir;
+        opacity: 0.3;
+    }
+    .footer_nav {
+        align-items: center;
+    }
+
+}

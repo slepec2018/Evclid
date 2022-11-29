@@ -1,0 +1,218 @@
+@media (max-width: 1806px) {
+    .header {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    .header_button_menu_wrap {
+        display: flex;
+        align-items: center;
+    }
+    .header_button_menu {
+        background-color: transparent;
+        width: 40px;
+        height: 33px;
+        padding: 2px;
+        padding-top: 3px;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: all 0.3s;
+    }
+    .header_button_menu svg {
+        width: 30px;
+        height: 23px;
+        stroke: $main_color_black;
+    }
+    .header_button_menu:hover svg {
+        stroke: $main_color_orange_fir;
+    }
+    .header_button_menu:hover svg rect {
+        fill: $main_color_orange_fir;
+    }
+    .header_button_menu:focus {
+        border: 2px solid $main_color_orange_fir;
+    }
+    .header_button_menu:active svg {
+        stroke: $main_color_black;
+    } 
+    .header_button_menu:active svg rect {
+        fill: $main_color_black;
+    }
+    .header_nav {
+        display: block;
+        position: absolute;
+        width: 420px;
+        height: 808px;
+        padding-top: 38px;
+        top: 0;
+        left: 0;
+        background-color: $main_color_white;
+        z-index: 3;
+        box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 0 0 32px 32px;
+        transform: scale(0);
+        opacity: 0;
+        transition: transform 2s, opacity 2s;
+    }
+    .header_nav_active {
+        transform: scale(1);
+        opacity: 1;
+    }
+    .header_list {
+        display: flex;
+        flex-direction: column;
+    }
+    .header_item {
+        margin-right: 0;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+    .header_item_link {
+        font-weight: $main_weight_700;
+        font-size: $main_size_24;
+        line-height: $main_height_30;
+    }
+    .header_nav_close {
+        display: block;
+        border: none;
+        background-color: transparent;
+        width: 24px;
+        height: 24px;
+        margin-left: 50px;
+        margin-bottom: 107px;
+        cursor: pointer;
+    }
+    .header_nav_close svg {
+        @include button_icon_st();
+        fill: $main_color_black;
+    }
+    .header_nav_close:hover svg {
+        fill: $main_color_orange_fir;
+    }
+    .header_logo_link {
+        text-align: center;
+        height: 48px;
+    }
+    .header_logo {
+        width: 150px;
+    }
+    
+    .offer_container {
+        margin-top: 40px;
+        min-height: 668px;
+    }
+    .offer_card {
+        max-width: 948px;
+        height: 668px;
+    }
+    .offer_card_pic {
+        height: 668px;
+    }
+    .offer_card_cap {
+        width: 770px;
+        font-size: 60px;
+        line-height: 74px;
+        top: 160px;
+        left: 77px;
+    }
+    .offer_card_text {
+        width: 660px;
+        font-size: $main_size_20;
+        line-height: 24px;
+        top: 322px;
+        left: 77px;
+    }
+    .offer_card_button {
+        top: 430px;
+        left: 77px;
+    }
+    .offer_buttons {
+        top: 623px;
+        left: 420px;
+    }
+
+    .about {
+        padding-top: 35px;
+    }
+    .about_text {
+        margin-bottom: 60px;
+    }
+    .about_pres {
+        flex-direction: column;
+    }
+    .about_col_1 {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+    .about_col_1_pic {
+        height: 640px;
+    }
+    .about_col_1_int {
+        width: 924px;
+    }
+    .about_col_1_text {
+        width: 454px;
+    }
+    .about_col_2_con,
+    .about_col_2_hig {
+        width: 924px;
+    }
+    .about_col_2_con::before,
+    .about_col_2_hig::before {
+        top: 65px;
+        left: 77px;
+    }
+    .about_col_2_cap {
+        margin-left: 317px;
+    }
+    .about_col_2_text {
+        margin-left: 317px;
+    }
+
+    .work {
+        padding-top: 83px;
+    }
+    .work_item { 
+        margin-bottom: 50px;
+    }
+    .work_cards_list {
+        height: 689px;
+    }
+    .work_card {
+        min-height: 689px;
+    }
+    .work_card_col_1 {
+        width: 455px;
+        margin-right: 45px;
+    }
+    .work_card_cap {
+        margin-bottom: 8px;
+    }
+    .work_card_text {
+        max-height: 576px;
+    }
+    .work_card_pic {
+        width: auto;
+        height: 689px;
+    }
+
+    .question {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .question_summary {
+        font-size: $main_size_20;
+    }
+
+    .footer_form_name,
+    .footer_form_email,
+    .footer_form_text {
+        width: 541px;
+    }
+    .footer_form_button {
+        width: 241px;
+    }
+    .footer_des {
+        display: none;
+    }
+}
+
